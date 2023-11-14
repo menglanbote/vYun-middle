@@ -10,11 +10,10 @@ const props = withDefaults(
   }>(),
   {
     name: '',
-    size: '18px',
+    size: null,
   }
 );
 const render = () => {
-  console.log('props', props.size);
   if (props.name?.startsWith('ant-')) {
     return h(resolveComponent(props.name), {
       style: {
@@ -26,7 +25,6 @@ const render = () => {
     return h('i');
   }
 };
-console.log('render');
 </script>
 <template>
   <render />
