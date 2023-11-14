@@ -1,2 +1,3 @@
-# vYun-middle
-vue3、antd4、pinia、vite4开发的中后台模板
+# vYun 中后台管理平台
+
+# node.js 18.16.0
