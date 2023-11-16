@@ -4,15 +4,13 @@ import zhCN from 'ant-design-vue/es/locale/zh_CN';
 import { ref } from 'vue';
 
 const locale = ref(zhCN);
-
 </script>
 <template>
   <ConfigProvider :locale="locale">
-    <Button type="primary">按钮</Button>
-    <SvgIcon color="red" :size="18" name="ant-ShareAltOutlined" />
-    <ant-StepForwardOutlined color="red" />
-    <!-- 字符串模板代码 -->
-    <div>hello</div>
+    <!-- 路由组件渲染出品 -->
+    <div class="h-full">
+      <router-view />
+    </div>
   </ConfigProvider>
 </template>
 <style scoped lang="less"></style>
