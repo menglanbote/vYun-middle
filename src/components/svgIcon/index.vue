@@ -10,7 +10,7 @@ const props = withDefaults(
   }>(),
   {
     name: '',
-    size: null,
+    size: 18,
   }
 );
 const render = () => {

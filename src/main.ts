@@ -3,7 +3,7 @@ import { createPinia } from 'pinia'
 import 'virtual:windi.css'
 import App from './App.vue'
 import router from './router'
-
+import '@/styles/index.less'
 
 import { useElIcon } from '@/utils/setGlobal';
 
